@@ -3,8 +3,10 @@
 return [
     'database' => [
         'host' => 'localhost',
-        'port' => 3306,
         'dbname' => 'sandiwebtask',
+        'username' => 'root',
+        'password' => '',
+        'port' => 3306,
         'charset' => 'utf8mb4'
     ],
 

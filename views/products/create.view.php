@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container ">
-        <a class="navbar-brand font-weight-bold " href="#">Product Add</a>
+        <a class="navbar-brand font-weight-bold text-danger" href="#">Product Add</a>
 
         <div class="d-flex justify-content-center " id="navbarSupportedContent">
 
