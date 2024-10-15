@@ -1,0 +1,16 @@
+{
+    "name": "asmaa/scandiweb",
+    "autoload": {
+        "psr-4": {
+             "App\\": "app/",
+             "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "asmaa mohamed",
+            "email": "asmaa.mo104@gmail.com"
+        }
+    ],
+    "require": {}
+}
