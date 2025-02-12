@@ -1,0 +1,17 @@
+{
+    "authors": [
+        {
+            "name": "asmaa mohamed"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "*",
+        "symfony/var-dumper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Src\\": "src/"
+        }
+    }
+}
