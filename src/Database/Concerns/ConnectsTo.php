@@ -1,8 +1,8 @@
 <?php
 
-namespace Src\Database\Concerns;
+namespace Scandiweb\Database\Concerns;
 
-use Src\Database\Managers\Contracts\DatabaseManager;
+use Scandiweb\Database\Managers\Contracts\DatabaseManager;
 
 trait ConnectsTo
 {

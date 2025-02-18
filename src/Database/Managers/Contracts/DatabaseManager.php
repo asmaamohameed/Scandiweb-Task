@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Database\Managers\Contracts;
+namespace Scandiweb\Database\Managers\Contracts;
 
 interface DatabaseManager
 {

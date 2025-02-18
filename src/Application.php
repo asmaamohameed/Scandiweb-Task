@@ -1,14 +1,14 @@
 <?php
 
-namespace Src;
+namespace Scandiweb;
 
-use Src\Database\DB;
-use Src\Http\Response;
-use Src\Http\Request;
-use Src\Http\Route;
-use Src\Support\Config;
-use Src\Support\Session;
-use Src\Database\Managers\MySQLManager;
+use Scandiweb\Database\DB;
+use Scandiweb\Http\Response;
+use Scandiweb\Http\Request;
+use Scandiweb\Http\Route;
+use Scandiweb\Support\Config;
+use Scandiweb\Support\Session;
+use Scandiweb\Database\Managers\MySQLManager;
 
 class Application
 {

@@ -1,10 +1,10 @@
 <?php
 
-use Src\View\View;
-use Src\Application;
-use Src\Http\Request;
-use Src\Http\Response;
-use Src\Validation\Validator;
+use Scandiweb\View\View;
+use Scandiweb\Application;
+use Scandiweb\Http\Request;
+use Scandiweb\Http\Response;
+use Scandiweb\Validation\Validator;
 
 if (!function_exists('env')) {
     function env($key, $default = null)
@@ -134,7 +134,8 @@ if (!function_exists('view')) {
         View::make($view, $params);
     }
 }
-function dd($value)
+if (!function_exists('dd')) {
+    function dd($value)
 {
     echo "<pre>";
 
@@ -143,4 +144,5 @@ function dd($value)
     echo "<pre>";
 
     die();
+}
 }

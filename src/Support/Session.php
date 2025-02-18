@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Support;
+namespace Scandiweb\Support;
 
 class Session
 {

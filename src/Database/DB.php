@@ -1,9 +1,9 @@
 <?php
 
-namespace Src\Database;
+namespace Scandiweb\Database;
 
-use Src\Database\Concerns\ConnectsTo;
-use Src\Database\Managers\Contracts\DatabaseManager;
+use Scandiweb\Database\Concerns\ConnectsTo;
+use Scandiweb\Database\Managers\Contracts\DatabaseManager;
 class DB
 {
     protected DatabaseManager $manager;

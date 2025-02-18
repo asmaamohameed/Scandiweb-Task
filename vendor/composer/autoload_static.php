@@ -20,7 +20,7 @@ class ComposerStaticInit9abb8edd493c7115626948aca737fbb7
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\VarDumper\\' => 28,
-            'Src\\' => 4,
+            'Scandiweb\\' => 10,
         ),
         'P' => 
         array (
@@ -57,7 +57,7 @@ class ComposerStaticInit9abb8edd493c7115626948aca737fbb7
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
-        'Src\\' => 
+        'Scandiweb\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -75,7 +75,7 @@ class ComposerStaticInit9abb8edd493c7115626948aca737fbb7
         ),
         'App\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/App',
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Src\Database\Managers;
+namespace Scandiweb\Database\Managers;
 
-use Src\Database\Managers\Contracts\DatabaseManager;
-use Src\Database\Grammars\MySQLGrammar;
+use Scandiweb\Database\Managers\Contracts\DatabaseManager;
+use Scandiweb\Database\Grammars\MySQLGrammar;
 use App\Models\Model;
 
 class MySQLManager implements DatabaseManager

@@ -1,8 +1,8 @@
 <?php
 
-namespace Src\Http;
+namespace Scandiweb\Http;
 
-use Src\Support\Arr;
+use Scandiweb\Support\Arr;
  
 class Request
 {

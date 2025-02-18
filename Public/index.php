@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-use App\Models\Product;
 use Dotenv\Dotenv;
 
 require_once  __DIR__.'/../src/Support/helpers.php';

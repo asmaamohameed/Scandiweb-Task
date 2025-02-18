@@ -1,8 +1,8 @@
 <?php
 
-namespace Src\Http;
+namespace Scandiweb\Http;
 
-use Src\View\View;
+use Scandiweb\View\View;
 
 class Route
 {

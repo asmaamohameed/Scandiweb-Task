@@ -1,12 +1,12 @@
 <?php
 
-namespace Src\Validation;
+namespace Scandiweb\Validation;
 
 
-use Src\Validation\Rules\NumericRule;
-use Src\Validation\Rules\RequiredRule;
-use Src\Validation\Rules\RequiredIfRule;
-use Src\Validation\Rules\UniqueRule;
+use Scandiweb\Validation\Rules\NumericRule;
+use Scandiweb\Validation\Rules\RequiredRule;
+use Scandiweb\Validation\Rules\RequiredIfRule;
+use Scandiweb\Validation\Rules\UniqueRule;
 
 trait RulesMapper
 {

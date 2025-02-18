@@ -1,9 +1,9 @@
 <?php
 
-namespace Src\Validation;
+namespace Scandiweb\Validation;
 
-use Src\Validation\ErrorBag;
-use Src\Validation\Rules\Rule;
+use Scandiweb\Validation\ErrorBag;
+use Scandiweb\Validation\Rules\Rule;
 
 
 class Validator

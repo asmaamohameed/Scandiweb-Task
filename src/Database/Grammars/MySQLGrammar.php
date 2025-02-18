@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Database\Grammars;
+namespace Scandiweb\Database\Grammars;
 
 use App\Models\Model;
 

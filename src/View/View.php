@@ -1,7 +1,7 @@
 <?php 
 
 
-namespace Src\View;
+namespace Scandiweb\View;
 
 class View{
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Validation\Rules;
+namespace Scandiweb\Validation\Rules;
 
 
 

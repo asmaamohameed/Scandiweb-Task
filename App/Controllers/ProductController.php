@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use Src\Validation\Validator;
+use Scandiweb\Validation\Validator;
 use App\Models\Product;
 class ProductController
 {

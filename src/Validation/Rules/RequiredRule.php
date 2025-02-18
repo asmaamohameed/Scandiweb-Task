@@ -1,8 +1,8 @@
 <?php
 
- namespace Src\Validation\Rules;
+ namespace Scandiweb\Validation\Rules;
 
- use Src\Validation\Rules\Rule;
+ use Scandiweb\Validation\Rules\Rule;
 
 
  class RequiredRule implements Rule

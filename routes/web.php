@@ -1,6 +1,6 @@
 <?php 
 
-use Src\Http\Route;
+use Scandiweb\Http\Route;
 use App\Controllers\ProductController;
 
 Route::get('/', [ProductController::class, 'index']);

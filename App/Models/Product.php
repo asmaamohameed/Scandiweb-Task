@@ -4,11 +4,6 @@ namespace App\Models;
 
 class Product extends Model
 {
-    /**
-     * All product data (sku, name, price, type, value, etc.)
-     *
-     * @var array
-     */
     protected array $attributes = [];
 
     /**
@@ -62,35 +57,27 @@ class Product extends Model
         return $this->attributes[$name] ?? null;
     }
 
-    /**
-     * Magic setter to assign values to attributes.
-     */
+     //Magic setter to assign values to attributes.
+     
     public function __set($name, $value)
     {
         $this->attributes[$name] = $value;
     }
 
-    /**
-     * Returns all attributes as an associative array.
-     */
+    //Returns all attributes as an associative array.
     public function toArray(): array
     {
         return $this->attributes;
     }
 
-    /**
-     * Save the product.
-     * Only saves the columns that exist in your database.
-     */
     public function save()
     {
-        // Assuming your database table has columns: sku, name, price, type, and value.
         $data = [
-            'sku'   => $this->attributes['sku']   ?? '',
-            'name'  => $this->attributes['name']  ?? '',
-            'price' => $this->attributes['price'] ?? 0,
-            'type'  => $this->attributes['type']  ?? '',
-            'value' => $this->attributes['value'] ?? '',
+            'sku'   => $this->attributes['sku']   ,
+            'name'  => $this->attributes['name']  ,
+            'price' => $this->attributes['price'] ,
+            'type'  => $this->attributes['type']  ,
+            'value' => $this->attributes['value'] ,
         ];
 
         return parent::create($data);
